@@ -8,7 +8,7 @@ Here you go:
 | [Codacy][codacy]      | | | | | | |
 | [CodeCov][ccov]       | | | | | | |
 | [CodeFactor][cfact]   | | | | | | |
-| [Code Climate][clima] | | | | | | |
+| [Code Climate][clima] | :traffic_light: :speech_balloon: :bar_chart: :umbrella: | *.NET not supported* | *.NET not supported* | *.NET not supported* | *.NET not supported* | *.NET not supported* |
 | [Coveralls][covall]   | | | | | | |
 | [Deep Code][deepc]    | | | | | | |
 | [LGTM][lgtm]          | | | | | | |
