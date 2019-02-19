@@ -9,7 +9,7 @@ Here you go (hint: click a badge to explore results in a live demo):
 | [CodeCov][ccov]       | | | | | | |
 | [CodeFactor][cfact]   | :traffic_light: :speech_balloon: :bar_chart: :gift: | | | | | [![badge][cfact-gitext-badge]][cfact-gitext] |
 | [Code Climate][clima] | :traffic_light: :speech_balloon: :bar_chart: :umbrella: | *.NET not supported* | *.NET not supported* | *.NET not supported* | *.NET not supported* | *.NET not supported* |
-| [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | | | | | # [![badge][scene-gitext-badge][scene-gitext] |
+| [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | | | | | # [![badge][scene-gitext-badge]][scene-gitext] |
 | [Coveralls][covall]   | | | | | | |
 | [Deep Code][deepc]    | :traffic_light: :milky_way: :gift: | | | | | *Failed* (C# recognized as Smalltalk) |
 | [LGTM][lgtm]          | | | | | | *Failed* (recognized only .js and .py) |
@@ -37,7 +37,7 @@ You are more than welcome to:
 
 # License
 
-Apache License 2.0 as stated in [LICENSE](./LICENSE).
+Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE).
 
 [bch]: https://bettercodehub.com "Better Code Hub"
 [codacy]: https://codacy.com "Codacy"
