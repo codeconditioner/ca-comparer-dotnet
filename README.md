@@ -9,6 +9,7 @@ Here you go (hint: click a badge to explore results in a live demo):
 | [CodeCov][ccov]       | | | | | | |
 | [CodeFactor][cfact]   | :traffic_light: :speech_balloon: :bar_chart: :gift: | | | | | [![badge][cfact-gitext-badge]][cfact-gitext] |
 | [Code Climate][clima] | :traffic_light: :speech_balloon: :bar_chart: :umbrella: | *.NET not supported* | *.NET not supported* | *.NET not supported* | *.NET not supported* | *.NET not supported* |
+| [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | | | | | # [![badge][scene-gitext-badge][scene-gitext] |
 | [Coveralls][covall]   | | | | | | |
 | [Deep Code][deepc]    | :traffic_light: :milky_way: :gift: | | | | | *Failed* (C# recognized as Smalltalk) |
 | [LGTM][lgtm]          | | | | | | *Failed* (recognized only .js and .py) |
@@ -46,6 +47,7 @@ Apache License 2.0 as stated in [LICENSE](./LICENSE).
 [covall]: https://coveralls.io/ "Coveralls"
 [deepc]: https://www.deepcode.ai/ "Deep Code"
 [lgtm]: https://lgtm.com/ "LGTM"
+[scene]: https://codescene.io/ "Code Scene"
 [sider]: https://sider.review/  "Sider"
 [sonar]: https://sonarcloud.io/ "SonarCloud"
 
@@ -61,6 +63,8 @@ Apache License 2.0 as stated in [LICENSE](./LICENSE).
 [codacy-gitext-badge]: https://api.codacy.com/project/badge/Grade/c7e4d208980d4a14b5eb23b76f2d5a01
 [cfact-gitext]: https://www.codefactor.io/repository/github/wachulski/gitextensions/
 [cfact-gitext-badge]: https://www.codefactor.io/Content/badges/AMinus.svg
+[scene-gitext]: https://codescene.io/projects/4180/jobs/latest-successful/results
+[scene-gitext-badge]: https://codescene.io/projects/4180/status.svg
 [sonar-gitext]: https://sonarcloud.io/dashboard?id=GitExtensions
 [sonar-gitext-gate]: https://sonarcloud.io/api/project_badges/measure?project=GitExtensions&metric=alert_status
 [sonar-gitext-debt]: https://sonarcloud.io/api/project_badges/measure?project=GitExtensions&metric=sqale_index
