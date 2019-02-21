@@ -4,7 +4,7 @@ Here you go (hint: click a badge to explore results in a live demo):
 
 | Analysis Service      | Features |[C# compiler][roslyn]|[CoreCLR][clr]|[ASP.NET Core][asp]|[NodaTime][noda]|[Git Extensions][gitext]|
 |-----------------------|----------|---------------------|--------------|-------------------|----------------|------------------------|
-| [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| | | | | [![bchr][bch-gitext-badge]][bch-gitext] *live demo n/a* |
+| [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| *Fail (>100k LOC free plan)* | *Fail (>100k LOC free plan)* | *Fail (>100k LOC free plan)* | [![bchr][bch-noda-badge]][bch-noda] | [![bchr][bch-gitext-badge]][bch-gitext] |
 | [Codacy][codacy]      | :traffic_light: :speech_balloon: :bar_chart: :gift: | | | | | [![badge][codacy-gitext-badge]][codacy-gitext] |
 | [CodeCov][ccov]       | | | | | | prod: [![badge][ccov-gitext-badge-prod]][ccov-gitext]<br/>prod+tests: [![badge][ccov-gitext-badge-prod-test]][ccov-gitext] |
 | [CodeFactor][cfact]   | :traffic_light: :speech_balloon: :bar_chart: :gift: | | | | | [![badge][cfact-gitext-badge]][cfact-gitext] |
@@ -62,6 +62,8 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 
 [bch-gitext]: /img/bch-gitext.png
 [bch-gitext-badge]: https://bettercodehub.com/edge/badge/wachulski/gitextensions?branch=master
+[bch-noda]: /img/bch-noda.png
+[bch-noda-badge]: https://bettercodehub.com/edge/badge/codeconditioner/nodatime?branch=master
 [ccov-gitext]: https://codecov.io/gh/gitextensions/gitextensions
 [ccov-gitext-badge-prod]: https://codecov.io/gh/gitextensions/gitextensions/branch/master/graph/badge.svg?flag=production
 [ccov-gitext-badge-prod-test]: https://codecov.io/gh/gitextensions/gitextensions/branch/master/graph/badge.svg
