@@ -4,7 +4,7 @@ Here you go (hint: click a badge to explore results in a live demo):
 
 | Analysis Service      | Feat. |[C# compiler][roslyn]|[CoreCLR][clr]|[ASP.NET Core][asp]|[NodaTime][noda]|[Git Extensions][gitext]|
 |-----------------------|----------|---------------------|--------------|-------------------|----------------|------------------------|
-| [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| *Fail (>100k LOC free plan)* | *Fail (>100k LOC free plan)* | *Fail (>100k LOC free plan)* | [![bchr][bch-noda-badge]][bch-noda] | [![bchr][bch-gitext-badge]][bch-gitext] |
+| [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| :x: *(>200kLOC supported)* | :x: *(>200kLOC supported)* | :x: *(>200kLOC supported)* | [![bchr][bch-noda-badge]][bch-noda] | [![bchr][bch-gitext-badge]][bch-gitext] |
 | [Codacy][codacy]      | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][codacy-roslyn-badge]][codacy-roslyn] | [![badge][codacy-clr-badge]][codacy-clr] | [![badge][codacy-asp-badge]][codacy-asp] | [![badge][codacy-noda-badge]][codacy-noda] | [![badge][codacy-gitext-badge]][codacy-gitext] |
 | [CodeCov][ccov]       | | | | | | prod: [![badge][ccov-gitext-badge-prod]][ccov-gitext]<br/>prod+tests: [![badge][ccov-gitext-badge-prod-test]][ccov-gitext] |
 | [Code Factor][cfact]   | :traffic_light: :speech_balloon: :bar_chart: :gift: | | | | | [![badge][cfact-gitext-badge]][cfact-gitext] |
