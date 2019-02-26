@@ -4,10 +4,10 @@ Here you go (hint: click a badge to explore results in a live demo):
 
 | Analysis Service      | Feat. |[C# compiler][roslyn]|[CoreCLR][clr]|[ASP.NET Core][asp]|[NodaTime][noda]|[Git Extensions][gitext]|
 |-----------------------|----------|---------------------|--------------|-------------------|----------------|------------------------|
-| [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| :x: *(>200kLOC supported)* | :x: *(>200kLOC supported)* | :x: *(>200kLOC supported)* | [![bchr][bch-noda-badge]][bch-noda] | [![bchr][bch-gitext-badge]][bch-gitext] |
+| [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| :x: *(no support >200kLOC)* | :x: *(no support >200kLOC)* | :x: *(no support >200kLOC)* | [![bchr][bch-noda-badge]][bch-noda] | [![bchr][bch-gitext-badge]][bch-gitext] |
 | [Codacy][codacy]      | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][codacy-roslyn-badge]][codacy-roslyn] | [![badge][codacy-clr-badge]][codacy-clr] | [![badge][codacy-asp-badge]][codacy-asp] | [![badge][codacy-noda-badge]][codacy-noda] | [![badge][codacy-gitext-badge]][codacy-gitext] |
 | [CodeCov][ccov]       | | | | | | prod: [![badge][ccov-gitext-badge-prod]][ccov-gitext]<br/>prod+tests: [![badge][ccov-gitext-badge-prod-test]][ccov-gitext] |
-| [Code Factor][cfact]   | :traffic_light: :speech_balloon: :bar_chart: :gift: | | | | | [![badge][cfact-gitext-badge]][cfact-gitext] |
+| [Code Factor][cfact]   | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-roslyn-badge]][cfact-roslyn] | [![badge][cfact-clr-badge]][cfact-clr] | [![badge][cfact-asp-badge]][cfact-asp] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
 | [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | | | | | [![badge][scene-gitext-badge]][scene-gitext] |
 | [Coveralls][covall]   | | | | | | |
 | [Sonar Cloud][sonar]   | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | | | | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
@@ -77,8 +77,16 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [codacy-noda-badge]: https://api.codacy.com/project/badge/Grade/ef3644505f7d48629739750edf1de6ff
 [codacy-gitext]: https://www.codacy.com/app/wachulski/gitextensions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wachulski/gitextensions&amp;utm_campaign=Badge_Grade
 [codacy-gitext-badge]: https://api.codacy.com/project/badge/Grade/c7e4d208980d4a14b5eb23b76f2d5a01
+[cfact-roslyn]: https://www.codefactor.io/repository/github/codeconditioner/roslyn/
+[cfact-roslyn-badge]: https://www.codefactor.io/repository/github/codeconditioner/roslyn/badge
+[cfact-clr]: https://www.codefactor.io/repository/github/codeconditioner/coreclr/
+[cfact-clr-badge]: https://www.codefactor.io/repository/github/codeconditioner/coreclr/badge
+[cfact-asp]: https://www.codefactor.io/repository/github/codeconditioner/AspNetCore/
+[cfact-asp-badge]: https://www.codefactor.io/repository/github/codeconditioner/AspNetCore/badge
+[cfact-noda]: https://www.codefactor.io/repository/github/codeconditioner/nodatime/
+[cfact-noda-badge]: https://www.codefactor.io/repository/github/codeconditioner/nodatime/badge
 [cfact-gitext]: https://www.codefactor.io/repository/github/wachulski/gitextensions/
-[cfact-gitext-badge]: https://www.codefactor.io/Content/badges/AMinus.svg
+[cfact-gitext-badge]: https://www.codefactor.io/repository/github/wachulski/gitextensions/badge
 [scene-gitext]: https://codescene.io/projects/4180/jobs/latest-successful/results
 [scene-gitext-badge]: https://codescene.io/projects/4180/status.svg
 [sonar-gitext]: https://sonarcloud.io/dashboard?id=GitExtensions
