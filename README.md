@@ -7,10 +7,10 @@ Here you go (hint: click a badge to explore results in a live demo):
 | [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| :x: *(no support >200kLOC)* | :x: *(no support >200kLOC)* | :x: *(no support >200kLOC)* | [![bchr][bch-noda-badge]][bch-noda] | [![bchr][bch-gitext-badge]][bch-gitext] |
 | [Codacy][codacy]      | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][codacy-roslyn-badge]][codacy-roslyn] | [![badge][codacy-clr-badge]][codacy-clr] | [![badge][codacy-asp-badge]][codacy-asp] | [![badge][codacy-noda-badge]][codacy-noda] | [![badge][codacy-gitext-badge]][codacy-gitext] |
 | [CodeCov][ccov]       | | | | | | prod: [![badge][ccov-gitext-badge-prod]][ccov-gitext]<br/>prod+tests: [![badge][ccov-gitext-badge-prod-test]][ccov-gitext] |
-| [Code Factor][cfact]   | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-roslyn-badge]][cfact-roslyn] | [![badge][cfact-clr-badge]][cfact-clr] | [![badge][cfact-asp-badge]][cfact-asp] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
-| [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | | | | | [![badge][scene-gitext-badge]][scene-gitext] |
+| [Code Factor][cfact]  | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-roslyn-badge]][cfact-roslyn] | [![badge][cfact-clr-badge]][cfact-clr] | [![badge][cfact-asp-badge]][cfact-asp] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
+| [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | [![badge][scene-roslyn-badge]][scene-roslyn] | [![badge][scene-clr-badge]][scene-clr] | [![badge][scene-asp-badge]][scene-asp] | [![badge][scene-noda-badge]][scene-noda] | [![badge][scene-gitext-badge]][scene-gitext] |
 | [Coveralls][covall]   | | | | | | |
-| [Sonar Cloud][sonar]   | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | | | | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
+| [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | | | | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
 
 **Legend**:
 
@@ -87,6 +87,14 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [cfact-noda-badge]: https://www.codefactor.io/repository/github/codeconditioner/nodatime/badge
 [cfact-gitext]: https://www.codefactor.io/repository/github/wachulski/gitextensions/
 [cfact-gitext-badge]: https://www.codefactor.io/repository/github/wachulski/gitextensions/badge
+[scene-roslyn]: https://codescene.io/projects/4203/jobs/latest-successful/results
+[scene-roslyn-badge]: https://codescene.io/projects/4203/status.svg
+[scene-clr]: https://codescene.io/projects/4201/jobs/latest-successful/results
+[scene-clr-badge]: https://codescene.io/projects/4201/status.svg
+[scene-asp]: https://codescene.io/projects/4200/jobs/latest-successful/results
+[scene-asp-badge]: https://codescene.io/projects/4200/status.svg
+[scene-noda]: https://codescene.io/projects/4202/jobs/latest-successful/results
+[scene-noda-badge]: https://codescene.io/projects/4202/status.svg
 [scene-gitext]: https://codescene.io/projects/4180/jobs/latest-successful/results
 [scene-gitext-badge]: https://codescene.io/projects/4180/status.svg
 [sonar-gitext]: https://sonarcloud.io/dashboard?id=GitExtensions
