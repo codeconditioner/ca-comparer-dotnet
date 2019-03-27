@@ -2,15 +2,15 @@
 
 Here you go (hint: click a badge to explore results in a live demo):
 
-| Analysis Service      | Feat. |[C# compiler][roslyn]|[CoreCLR][clr]|[ASP.NET Core][asp]|[NodaTime][noda]|[Git Extensions][gitext]|
-|-----------------------|----------|---------------------|--------------|-------------------|----------------|------------------------|
-| [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| :x: *(no support >200kLOC)* | :x: *(no support >200kLOC)* | :x: *(no support >200kLOC)* | [![bchr][bch-noda-badge]][bch-noda] | [![bchr][bch-gitext-badge]][bch-gitext] |
-| [Codacy][codacy]      | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][codacy-roslyn-badge]][codacy-roslyn] | [![badge][codacy-clr-badge]][codacy-clr] | [![badge][codacy-asp-badge]][codacy-asp] | [![badge][codacy-noda-badge]][codacy-noda] | [![badge][codacy-gitext-badge]][codacy-gitext] |
-| [CodeCov][ccov]       | | | | | | prod: [![badge][ccov-gitext-badge-prod]][ccov-gitext]<br/>prod+tests: [![badge][ccov-gitext-badge-prod-test]][ccov-gitext] |
-| [Code Factor][cfact]  | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-roslyn-badge]][cfact-roslyn] | [![badge][cfact-clr-badge]][cfact-clr] | [![badge][cfact-asp-badge]][cfact-asp] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
-| [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | [![badge][scene-roslyn-badge]][scene-roslyn] | [![badge][scene-clr-badge]][scene-clr] | [![badge][scene-asp-badge]][scene-asp] | [![badge][scene-noda-badge]][scene-noda] | [![badge][scene-gitext-badge]][scene-gitext] |
-| [Coveralls][covall]   | | | | | | |
-| [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | | | | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
+| Analysis Service      | Feat. |[Entity Framework Core][ef] (a framework)|[NodaTime][noda] (a library)|[Git Extensions][gitext] (a desktop app)|
+|-----------------------|-------|-----------------------------------------|----------------------------|----------------------------------------|
+| [Better Code Hub][bch]| :traffic_light: :speech_balloon: :gift:| :x: *(no support >200kLOC)* | [![bchr][bch-noda-badge]][bch-noda] | [![bchr][bch-gitext-badge]][bch-gitext] |
+| [Codacy][codacy]      | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][codacy-ef-badge]][codacy-ef] | [![badge][codacy-noda-badge]][codacy-noda] | [![badge][codacy-gitext-badge]][codacy-gitext] |
+| [CodeCov][ccov]       | :speech_balloon: :umbrella: :gift: | prod: [![badge][ccov-ef-badge]][ccov-ef] | prod+tests: [![badge][ccov-noda-badge]][ccov-noda] | prod: [![badge][ccov-gitext-badge-prod]][ccov-gitext]<br/>prod+tests: [![badge][ccov-gitext-badge-prod-test]][ccov-gitext] |
+| [Code Factor][cfact]  | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-ef-badge]][cfact-ef] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
+| [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | [![badge][scene-ef-badge]][scene-ef] | [![badge][scene-noda-badge]][scene-noda] | [![badge][scene-gitext-badge]][scene-gitext] |
+| [Coveralls][covall]   | :speech_balloon: :umbrella: :gift: | | | |
+| [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
 
 **Legend**:
 
@@ -54,9 +54,7 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [sider]: https://sider.review/  "Sider"
 [sonar]: https://sonarcloud.io/ "SonarCloud"
 
-[roslyn]: https://github.com/dotnet/roslyn "The .NET Compiler Platform (Roslyn)"
-[clr]: https://github.com/dotnet/coreclr "The runtime for .NET Core"
-[asp]: https://github.com/aspnet/AspNetCore "A cross-platform .NET framework for building web apps."
+[ef]: https://github.com/aspnet/AspNetCore "A lightweight and extensible version of the popular data access technology."
 [noda]: https://github.com/nodatime/nodatime "A better date and time API for .NET"
 [gitext]: https://github.com/gitextensions/gitextensions "A standalone UI tool for managing git repositories"
 
@@ -64,35 +62,27 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [bch-gitext-badge]: https://bettercodehub.com/edge/badge/wachulski/gitextensions?branch=master
 [bch-noda]: /img/bch-noda.png
 [bch-noda-badge]: https://bettercodehub.com/edge/badge/codeconditioner/nodatime?branch=master
+[ccov-ef]: https://codecov.io/gh/codeconditioner/EntityFrameworkCore/branch/CodeCov
+[ccov-ef-badge]: https://codecov.io/gh/codeconditioner/EntityFrameworkCore/branch/CodeCov/graph/badge.svg
+[ccov-noda]: https://codecov.io/gh/nodatime/nodatime
+[ccov-noda-badge]: https://codecov.io/gh/nodatime/nodatime/branch/master/graph/badge.svg
 [ccov-gitext]: https://codecov.io/gh/gitextensions/gitextensions
 [ccov-gitext-badge-prod]: https://codecov.io/gh/gitextensions/gitextensions/branch/master/graph/badge.svg?flag=production
 [ccov-gitext-badge-prod-test]: https://codecov.io/gh/gitextensions/gitextensions/branch/master/graph/badge.svg
-[codacy-roslyn]: https://www.codacy.com/app/code-conditioner/roslyn
-[codacy-roslyn-badge]: https://api.codacy.com/project/badge/Grade/8fed6be839824c8586ee8ce704b12182
-[codacy-clr]: https://www.codacy.com/app/code-conditioner/coreclr
-[codacy-clr-badge]: https://api.codacy.com/project/badge/Grade/2343d15b86e547ae9a78b07640ddaf22
-[codacy-asp]: https://www.codacy.com/app/code-conditioner/AspNetCore
-[codacy-asp-badge]: https://api.codacy.com/project/badge/Grade/f5b1c3b645844e26b92df6c977e88f76
+[codacy-ef]: https://www.codacy.com/app/code-conditioner/EntityFrameworkCore
+[codacy-ef-badge]: https://api.codacy.com/project/badge/Grade/6bafdf803f12431a9721cc3224c02229
 [codacy-noda]: https://www.codacy.com/app/code-conditioner/nodatime
 [codacy-noda-badge]: https://api.codacy.com/project/badge/Grade/ef3644505f7d48629739750edf1de6ff
 [codacy-gitext]: https://www.codacy.com/app/wachulski/gitextensions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wachulski/gitextensions&amp;utm_campaign=Badge_Grade
 [codacy-gitext-badge]: https://api.codacy.com/project/badge/Grade/c7e4d208980d4a14b5eb23b76f2d5a01
-[cfact-roslyn]: https://www.codefactor.io/repository/github/codeconditioner/roslyn/
-[cfact-roslyn-badge]: https://www.codefactor.io/repository/github/codeconditioner/roslyn/badge
-[cfact-clr]: https://www.codefactor.io/repository/github/codeconditioner/coreclr/
-[cfact-clr-badge]: https://www.codefactor.io/repository/github/codeconditioner/coreclr/badge
-[cfact-asp]: https://www.codefactor.io/repository/github/codeconditioner/AspNetCore/
-[cfact-asp-badge]: https://www.codefactor.io/repository/github/codeconditioner/AspNetCore/badge
+[cfact-ef]: https://www.codefactor.io/repository/github/codeconditioner/entityframeworkcore/
+[cfact-ef-badge]: https://www.codefactor.io/repository/github/codeconditioner/entityframeworkcore/badge
 [cfact-noda]: https://www.codefactor.io/repository/github/codeconditioner/nodatime/
 [cfact-noda-badge]: https://www.codefactor.io/repository/github/codeconditioner/nodatime/badge
 [cfact-gitext]: https://www.codefactor.io/repository/github/wachulski/gitextensions/
 [cfact-gitext-badge]: https://www.codefactor.io/repository/github/wachulski/gitextensions/badge
-[scene-roslyn]: https://codescene.io/projects/4203/jobs/latest-successful/results
-[scene-roslyn-badge]: https://codescene.io/projects/4203/status.svg
-[scene-clr]: https://codescene.io/projects/4201/jobs/latest-successful/results
-[scene-clr-badge]: https://codescene.io/projects/4201/status.svg
-[scene-asp]: https://codescene.io/projects/4200/jobs/latest-successful/results
-[scene-asp-badge]: https://codescene.io/projects/4200/status.svg
+[scene-ef]: https://codescene.io/projects/4454/jobs/latest-successful/results
+[scene-ef-badge]: https://codescene.io/projects/4454/status.svg
 [scene-noda]: https://codescene.io/projects/4202/jobs/latest-successful/results
 [scene-noda-badge]: https://codescene.io/projects/4202/status.svg
 [scene-gitext]: https://codescene.io/projects/4180/jobs/latest-successful/results
