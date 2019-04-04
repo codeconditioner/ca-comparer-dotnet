@@ -9,8 +9,8 @@ Here you go (hint: click a badge to explore results in a live demo):
 | [CodeCov][ccov]       | :speech_balloon: :umbrella: :gift: | prod: [![badge][ccov-ef-badge]][ccov-ef] | prod+tests: [![badge][ccov-noda-badge]][ccov-noda] | prod: [![badge][ccov-gitext-badge-prod]][ccov-gitext]<br/>prod+tests: [![badge][ccov-gitext-badge-prod-test]][ccov-gitext] |
 | [Code Factor][cfact]  | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-ef-badge]][cfact-ef] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
 | [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | [![badge][scene-ef-badge]][scene-ef] | [![badge][scene-noda-badge]][scene-noda] | [![badge][scene-gitext-badge]][scene-gitext] |
-| [Coveralls][covall]   | :speech_balloon: :umbrella: :gift: | | | |
-| [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
+| [Coveralls][covall]   | :speech_balloon: :umbrella: :gift: | [![badge][covall-ef-badge]][covall-ef] | | |
+| [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | [![gate][sonar-ef-gate]][sonar-ef] [![debt][sonar-ef-debt]][sonar-ef] [![cov][sonar-ef-cov]][sonar-ef] [![squale][sonar-ef-squale]][sonar-ef] [![reliab][sonar-ef-reliab]][sonar-ef] [![secur][sonar-ef-secur]][sonar-ef] | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
 
 **Legend**:
 
@@ -41,6 +41,8 @@ You are more than welcome to:
 # License
 
 Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE).
+
+
 
 [bch]: https://bettercodehub.com "Better Code Hub"
 [codacy]: https://codacy.com "Codacy"
@@ -75,6 +77,8 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [codacy-noda-badge]: https://api.codacy.com/project/badge/Grade/ef3644505f7d48629739750edf1de6ff
 [codacy-gitext]: https://www.codacy.com/app/wachulski/gitextensions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wachulski/gitextensions&amp;utm_campaign=Badge_Grade
 [codacy-gitext-badge]: https://api.codacy.com/project/badge/Grade/c7e4d208980d4a14b5eb23b76f2d5a01
+[covall-ef]: https://coveralls.io/github/codeconditioner/EntityFrameworkCore
+[covall-ef-badge]: https://coveralls.io/repos/github/codeconditioner/EntityFrameworkCore/badge.svg
 [cfact-ef]: https://www.codefactor.io/repository/github/codeconditioner/entityframeworkcore/
 [cfact-ef-badge]: https://www.codefactor.io/repository/github/codeconditioner/entityframeworkcore/badge
 [cfact-noda]: https://www.codefactor.io/repository/github/codeconditioner/nodatime/
@@ -87,6 +91,13 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [scene-noda-badge]: https://codescene.io/projects/4202/status.svg
 [scene-gitext]: https://codescene.io/projects/4180/jobs/latest-successful/results
 [scene-gitext-badge]: https://codescene.io/projects/4180/status.svg
+[sonar-ef]: https://sonarcloud.io/dashboard?id=EntityFrameworkCore
+[sonar-ef-gate]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=alert_status
+[sonar-ef-debt]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=sqale_index
+[sonar-ef-cov]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=coverage
+[sonar-ef-squale]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=sqale_rating
+[sonar-ef-reliab]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=reliability_rating
+[sonar-ef-secur]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=security_rating
 [sonar-gitext]: https://sonarcloud.io/dashboard?id=GitExtensions
 [sonar-gitext-gate]: https://sonarcloud.io/api/project_badges/measure?project=GitExtensions&metric=alert_status
 [sonar-gitext-debt]: https://sonarcloud.io/api/project_badges/measure?project=GitExtensions&metric=sqale_index
