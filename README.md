@@ -56,7 +56,7 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [sider]: https://sider.review/  "Sider"
 [sonar]: https://sonarcloud.io/ "SonarCloud"
 
-[ef]: https://github.com/aspnet/AspNetCore "A lightweight and extensible version of the popular data access technology."
+[ef]: https://github.com/aspnet/EntityFrameworkCore "A lightweight and extensible version of the popular data access technology."
 [noda]: https://github.com/nodatime/nodatime "A better date and time API for .NET"
 [gitext]: https://github.com/gitextensions/gitextensions "A standalone UI tool for managing git repositories"
 
