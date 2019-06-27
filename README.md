@@ -1,4 +1,4 @@
-# :wrench: :hammer: Code Analysis tooling comparer for .NET :hammer: :wrench:
+# :wrench: :hammer: Code analysis cloud services catalog, for .NET platform. :hammer: :wrench:
 
 Here you go (hint: click a badge to explore results in a live demo):
 
@@ -9,7 +9,7 @@ Here you go (hint: click a badge to explore results in a live demo):
 | [CodeCov][ccov]       | :speech_balloon: :umbrella: :gift: | prod: [![badge][ccov-ef-badge]][ccov-ef] | prod+tests: [![badge][ccov-noda-badge]][ccov-noda] | prod: [![badge][ccov-gitext-badge-prod]][ccov-gitext]<br/>prod+tests: [![badge][ccov-gitext-badge-prod-test]][ccov-gitext] |
 | [Code Factor][cfact]  | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-ef-badge]][cfact-ef] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
 | [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | [![badge][scene-ef-badge]][scene-ef] | [![badge][scene-noda-badge]][scene-noda] | [![badge][scene-gitext-badge]][scene-gitext] |
-| [Coveralls][covall]   | :speech_balloon: :umbrella: :gift: | [![badge][covall-ef-badge]][covall-ef] | | |
+| [Coveralls][covall]   | :speech_balloon: :umbrella: :gift: | [![badge][covall-ef-badge]][covall-ef] | [![badge][covall-noda-badge]][covall-noda] | [![badge][covall-gitext-badge]][covall-gitext] |
 | [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | [![gate][sonar-ef-gate]][sonar-ef] [![debt][sonar-ef-debt]][sonar-ef] [![cov][sonar-ef-cov]][sonar-ef] [![squale][sonar-ef-squale]][sonar-ef] [![reliab][sonar-ef-reliab]][sonar-ef] [![secur][sonar-ef-secur]][sonar-ef] | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
 
 **Legend**:
@@ -79,6 +79,10 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [codacy-gitext-badge]: https://api.codacy.com/project/badge/Grade/c7e4d208980d4a14b5eb23b76f2d5a01
 [covall-ef]: https://coveralls.io/github/codeconditioner/EntityFrameworkCore
 [covall-ef-badge]: https://coveralls.io/repos/github/codeconditioner/EntityFrameworkCore/badge.svg
+[covall-noda]: https://coveralls.io/repos/github/codeconditioner/nodatime
+[covall-noda-badge]: https://coveralls.io/repos/github/codeconditioner/nodatime/badge.svg
+[covall-gitext]: https://coveralls.io/repos/github/codeconditioner/gitextensions
+[covall-gitext-badge]: https://coveralls.io/repos/github/codeconditioner/gitextensions/badge.svg?branch=coveralls
 [cfact-ef]: https://www.codefactor.io/repository/github/codeconditioner/entityframeworkcore/
 [cfact-ef-badge]: https://www.codefactor.io/repository/github/codeconditioner/entityframeworkcore/badge
 [cfact-noda]: https://www.codefactor.io/repository/github/codeconditioner/nodatime/
