@@ -10,7 +10,7 @@ Here you go (hint: click a badge to explore results in a live demo):
 | [Code Factor][cfact]  | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-ef-badge]][cfact-ef] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
 | [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | [![badge][scene-ef-badge]][scene-ef] | [![badge][scene-noda-badge]][scene-noda] | [![badge][scene-gitext-badge]][scene-gitext] |
 | [Coveralls][covall]   | :speech_balloon: :umbrella: :gift: | [![badge][covall-ef-badge]][covall-ef] | [![badge][covall-noda-badge]][covall-noda] | [![badge][covall-gitext-badge]][covall-gitext] |
-| [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | [![gate][sonar-ef-gate]][sonar-ef] [![debt][sonar-ef-debt]][sonar-ef] [![cov][sonar-ef-cov]][sonar-ef] [![squale][sonar-ef-squale]][sonar-ef] [![reliab][sonar-ef-reliab]][sonar-ef] [![secur][sonar-ef-secur]][sonar-ef] | | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
+| [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | [![gate][sonar-ef-gate]][sonar-ef] [![debt][sonar-ef-debt]][sonar-ef] [![cov][sonar-ef-cov]][sonar-ef] [![squale][sonar-ef-squale]][sonar-ef] [![reliab][sonar-ef-reliab]][sonar-ef] [![secur][sonar-ef-secur]][sonar-ef] | [![gate][sonar-noda-gate]][sonar-noda] [![debt][sonar-noda-debt]][sonar-noda] [![cov][sonar-noda-cov]][sonar-noda] [![squale][sonar-noda-squale]][sonar-noda] [![reliab][sonar-noda-reliab]][sonar-noda] [![secur][sonar-noda-secur]][sonar-noda] | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
 
 **Legend**:
 
@@ -102,6 +102,13 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [sonar-ef-squale]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=sqale_rating
 [sonar-ef-reliab]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=reliability_rating
 [sonar-ef-secur]: https://sonarcloud.io/api/project_badges/measure?project=EntityFrameworkCore&metric=security_rating
+[sonar-noda]: https://sonarcloud.io/dashboard?id=nodatime
+[sonar-noda-gate]: https://sonarcloud.io/api/project_badges/measure?project=nodatime&metric=alert_status
+[sonar-noda-debt]: https://sonarcloud.io/api/project_badges/measure?project=nodatime&metric=sqale_index
+[sonar-noda-cov]: https://sonarcloud.io/api/project_badges/measure?project=nodatime&metric=coverage
+[sonar-noda-squale]: https://sonarcloud.io/api/project_badges/measure?project=nodatime&metric=sqale_rating
+[sonar-noda-reliab]: https://sonarcloud.io/api/project_badges/measure?project=nodatime&metric=reliability_rating
+[sonar-noda-secur]: https://sonarcloud.io/api/project_badges/measure?project=nodatime&metric=security_rating
 [sonar-gitext]: https://sonarcloud.io/dashboard?id=GitExtensions
 [sonar-gitext-gate]: https://sonarcloud.io/api/project_badges/measure?project=GitExtensions&metric=alert_status
 [sonar-gitext-debt]: https://sonarcloud.io/api/project_badges/measure?project=GitExtensions&metric=sqale_index
