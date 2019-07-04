@@ -10,6 +10,7 @@ Here you go (hint: click a badge to explore results in a live demo):
 | [Code Factor][cfact]  | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][cfact-ef-badge]][cfact-ef] | [![badge][cfact-noda-badge]][cfact-noda] | [![badge][cfact-gitext-badge]][cfact-gitext] |
 | [Code Scene][scene]   | :traffic_light: :bar_chart: :gift: | [![badge][scene-ef-badge]][scene-ef] | [![badge][scene-noda-badge]][scene-noda] | [![badge][scene-gitext-badge]][scene-gitext] |
 | [Coveralls][covall]   | :speech_balloon: :umbrella: :gift: | [![badge][covall-ef-badge]][covall-ef] | [![badge][covall-noda-badge]][covall-noda] | [![badge][covall-gitext-badge]][covall-gitext] |
+| [LGTM][lgtm] | :traffic_light: :speech_balloon: :bar_chart: :gift: | [![badge][lgtm-ef-badge]][lgtm-ef] | [![badge][lgtm-noda-badge]][lgtm-noda] | *Windows desktop app not supported* |
 | [Sonar Cloud][sonar]  | :traffic_light: :speech_balloon: :bar_chart: :umbrella: :gift: | [![gate][sonar-ef-gate]][sonar-ef] [![debt][sonar-ef-debt]][sonar-ef] [![cov][sonar-ef-cov]][sonar-ef] [![squale][sonar-ef-squale]][sonar-ef] [![reliab][sonar-ef-reliab]][sonar-ef] [![secur][sonar-ef-secur]][sonar-ef] | [![gate][sonar-noda-gate]][sonar-noda] [![debt][sonar-noda-debt]][sonar-noda] [![cov][sonar-noda-cov]][sonar-noda] [![squale][sonar-noda-squale]][sonar-noda] [![reliab][sonar-noda-reliab]][sonar-noda] [![secur][sonar-noda-secur]][sonar-noda] | [![gate][sonar-gitext-gate]][sonar-gitext] [![debt][sonar-gitext-debt]][sonar-gitext] [![cov][sonar-gitext-cov]][sonar-gitext] [![squale][sonar-gitext-squale]][sonar-gitext] [![reliab][sonar-gitext-reliab]][sonar-gitext] [![secur][sonar-gitext-secur]][sonar-gitext] |
 
 **Legend**:
@@ -27,7 +28,6 @@ Here you go (hint: click a badge to explore results in a live demo):
 
 * [Code Climate][clima]: :traffic_light: :speech_balloon: :bar_chart: :umbrella: *Not supported*
 * [Deep Code][deepc]: :traffic_light: :milky_way: :gift: *Failed (C# recognized as Smalltalk)*
-* [LGTM][lgtm]: :traffic_light: :speech_balloon: :bar_chart: :gift: *Failed (recognized only .js and .py)*
 * [Sider][sider]: :traffic_light: :speech_balloon: *Not supported*
 
 # Contribution
@@ -89,6 +89,10 @@ Creative Commons Attribution 4.0 International as stated in [LICENSE](./LICENSE)
 [cfact-noda-badge]: https://www.codefactor.io/repository/github/codeconditioner/nodatime/badge
 [cfact-gitext]: https://www.codefactor.io/repository/github/wachulski/gitextensions/
 [cfact-gitext-badge]: https://www.codefactor.io/repository/github/wachulski/gitextensions/badge
+[lgtm-ef]: https://lgtm.com/projects/g/aspnet/EntityFrameworkCore/
+[lgtm-ef-badge]: https://img.shields.io/lgtm/alerts/g/aspnet/EntityFrameworkCore.svg?logo=lgtm&logoWidth=18
+[lgtm-noda]: https://lgtm.com/projects/g/nodatime/nodatime/alerts/
+[lgtm-noda-badge]: https://img.shields.io/lgtm/alerts/g/nodatime/nodatime.svg?logo=lgtm&logoWidth=18
 [scene-ef]: https://codescene.io/projects/4454/jobs/latest-successful/results
 [scene-ef-badge]: https://codescene.io/projects/4454/status.svg
 [scene-noda]: https://codescene.io/projects/4202/jobs/latest-successful/results
